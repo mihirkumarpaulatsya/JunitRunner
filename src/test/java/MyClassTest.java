@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class MyClassTest {
 
-	//@Test
+	@Test
 	void testAddition() {
 		
 		int expected = 3;
@@ -22,7 +22,7 @@ class MyClassTest {
 		int expected = 4;
 		
 		MyClass myClass = new MyClass();
-		int actual = myClass.addition(1, 2);
+		int actual = myClass.addition(2, 2);
 		
 		assertEquals(expected, actual);
 		
